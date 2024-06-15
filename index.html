@@ -33,9 +33,15 @@
    <body>
 
       <div id="videoIntro" class="video-intro">
-         <video id="introVideo" autoplay muted>
+         <!-- <video id="introVideo" controls autoplay muted playsinline>
              <source src="videos/viverraspecialtycoffee.mp4" type="video/mp4">
              Your browser does not support the video tag.
+         </video> -->
+
+         <video id="introVideo" autoplay muted playsinline poster="video_thumbnail/thumbanil.jpg" src="videos/viverraspecialtycoffee.mp4">
+            <source src="videos/viverraspecialtycoffee.mp4" type="video/mp4"></source>
+            <source src="videos/viverraspecialtycoffee.webm" type="video/webm"></source>
+            <source src="videos/viverraspecialtycoffee.mov" type="video/mov"></source>
          </video>
      </div>
       <!--header section start -->
