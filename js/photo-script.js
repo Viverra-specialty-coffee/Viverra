@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to get a random image filename
     function getRandomImage() {
-        const totalImages = 31; // Total number of images in the folder
+        const totalImages = 34; // Total number of images in the folder
         const randomIndex = Math.floor(Math.random() * totalImages) + 1;
         return `kusmetcheta/${randomIndex}-01.png`; // Adjust the folder name and extension as needed
     }
