@@ -1081,7 +1081,7 @@ a:hover {
 .footer_text {
     font-family: "Sofia Sans Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 650;
+    font-weight: 400;
     font-style: normal;
     width: 100%;
     float: left;
@@ -1128,7 +1128,7 @@ a:hover {
 .location_text {
     font-family: "Sofia Sans Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 650;
+    font-weight: 400;
     font-style: normal;
     width: 100%;
     float: left;
