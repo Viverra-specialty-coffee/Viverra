@@ -46,7 +46,7 @@ body {
 }
 
 a {
-    color: #1f1f1f;
+    color: #ffffff;
     text-decoration: none !important;
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
@@ -110,7 +110,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: #212121;
+    color: #ffffff;
     text-decoration: none!important;
     opacity: 1
 }
@@ -399,6 +399,12 @@ button {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
+
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+
     padding-right: .5rem;
     padding-left: .5rem;
     font-size: 18px;
@@ -524,6 +530,8 @@ button {
 }
 
 .about_taital {
+
+    
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -1046,6 +1054,10 @@ a:hover {
 /* footer section start */
 
 .footer_section {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
     width: 100%;
     float: left;
     background-color: #EF4223;
