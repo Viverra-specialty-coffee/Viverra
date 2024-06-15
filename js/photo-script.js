@@ -4,9 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to get a random image filename
     function getRandomImage() {
-        const totalImages = 35; // Total number of images in the folder
-        const randomIndex = Math.floor(Math.random() * totalImages) + 1;
-        return `kusmetcheta/${randomIndex}-01.png`; // Adjust the folder name and extension as needed
+        const totalImages = 32; // Total number of images in the folder
+        let randomIndex;
+
+        do {
+            randomIndex = Math.floor(Math.random() * totalImages) + 1;
+        } while (randomIndex === 13 || randomIndex === 14 || randomIndex === 15);
     }
 
     // Function to set a random image to the <img> element inside .card__content
